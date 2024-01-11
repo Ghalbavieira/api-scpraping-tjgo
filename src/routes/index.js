@@ -3,6 +3,6 @@ import { getProcess } from '../controllers/searchprocess.controller.js'
 
 const router = Router()
 
-router.post('/process', getProcess)
+router.post('/', getProcess)
 
 export default router
